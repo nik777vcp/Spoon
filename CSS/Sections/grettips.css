@@ -12,7 +12,7 @@ align-items: center;
 }
 
 .logo {
-
+transition: transform 1s;
 }
 
 .logo__link {
@@ -80,6 +80,8 @@ border-radius: 4px;
     padding: 15px 30px;
     background: var(--colorGreen);
     border: #5ab963 2px solid;
+    transition: transform 1s;
+    cursor: pointer;
 }
 
 .grettips__btn {
@@ -97,3 +99,25 @@ font-family: var(--fontLF);
     border-radius: 4px;
     padding: 11px 17px;
 }
+
+.logo:hover{
+    transform: scale(1.15);
+}
+
+.nav__item:hover{
+    transform: scale(1.15);
+}
+
+.nav__item{
+    transition: transform 1s;
+}
+
+.btn:hover{
+    transform: scale(1.15);
+}
+
+.nav__item a:hover{
+    color: var(--colorGreen);
+    border-color: var(--colorGreen);
+}
+
